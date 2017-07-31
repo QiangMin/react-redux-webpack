@@ -8,12 +8,11 @@
 #### 4.缓存处理
 #### 3.国际化
 
+
+
 ### 克隆
 ```
 git clone https://github.com/QiangMin/react-redux-webpack.git
-cd react-redux-webpack
-npm install
-npm start
 ```
 
 
@@ -24,15 +23,14 @@ npm start
     "dev": "webpack-dev-server --config webpack.dev.config.js  --inline --hot --port 8082 ",
     "release": "webpack --config webpack.release.config.js",
     "dll": "webpack --config webpack.dll.config.js ",
-    "start": "node server.js"
   },
 ```
 ## 技术栈
 
-- react@15.3.1
-- react-router@3.0.5
+- react@15.6.1
+- react-router@2.8.1
 - redux@3.6.0
-- webpack@1.13.2
+- webpack@3.4.1
 - es6
 
 ## 浏览器兼容
